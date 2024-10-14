@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    background-color: #f0f0f0;
+}
+
+.content {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px; /* Espacio debajo del contenido centrado */
+}
+
+.additional-content {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
