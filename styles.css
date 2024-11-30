@@ -1,10 +1,14 @@
+html{
+    background-color: 	rgb(0, 0, 0);
+}
+
 html, body {
     height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    color-background: black;
+
 }
 
 .container {
@@ -14,11 +18,9 @@ html, body {
     width: 100%;
     height: 100%;
     overflow-y: auto; /* Habilita el desplazamiento vertical */
-    background-color: #f0f0f0;
 }
 
 .content {
-    background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 5px;
@@ -30,4 +32,9 @@ html, body {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.nashei{
+    background-color: white;
+    padding: 5px;
 }
